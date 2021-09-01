@@ -1,0 +1,100 @@
+.feedback{
+    visibility: hidden;
+    color:red;
+}
+#inputCards{
+    width: 50%;
+}
+#navegacion #formulario input{
+    margin-right: 1em;
+}
+#Contenedor-global .contenedor-cartas-generadas{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #005d16;
+    transition: .3s ease;
+}
+.bubble{
+    width: 100%;
+    display: flex;
+    font-size:20px;
+    color:black;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+    background-color: #005d16;
+    visibility: hidden;
+}
+#Contenedor-global .contenedor_ordenadas{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #005d16;
+}
+#Contenedor-global .contenedor_ordenadas:hover{
+    background-color: #009929;
+}
+
+/*---------------INICIO SECCION CARTA-------------------------*/
+.carta{
+    margin-right: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 140px;
+    background:white;
+    border:1px solid black;
+    border-radius: 10px;
+    transition:.2s;
+    position:relative;
+    overflow:hidden;
+    margin-right: 12px;
+}
+.suit{
+    width: 25%;
+    height: 25%;
+    position:absolute
+}
+.carta .suit img{
+    width: 100%;
+    height: 100%;
+    border-radius: 90%;
+}
+.carta .numero{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#suit_arriba{
+    top:5%;
+    left:5%;
+}
+#suit_abajo{
+    bottom:5%;
+    right:5%;
+}
+.carta:hover{
+    transform:scale(1.13);
+}
+
+/*------------------------------FIN SECCIÓN CARTA---------------------*/
+
+#Contenedor-global .contenedor-cartas-generadas:hover{
+    background-color: #009929;
+}
+
+.iteracion_div{
+    font-size: 25px;
+    color:black;
+    height: 180px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
